@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/*common*/
+body{
+    margin:0;
+}
+img{
+    vertical-align:bottom;
+}
+
+h1,h2,h3,p{
+    margin:0;
+}
+
+.wrapper{
+    max-width:600px;
+    margin:0 auto;
+    padding:30px 4%;
+}
+
+
+/* header */
+header{
+    text-align:center;
+}
+
+.photo{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    margin-bottom:10px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li{
+    list-style: none;
+    margin-left:40px;
+}
+/* main */
+h2{
+    text-align:center;
+}
+
+.myskills{
+    background-color: #f1f1f1;;
+}
+
+.myskills ul{
+    margin-top:30px;
+    list-style:none;
+    padding:0;
+    display:flex;
+    justify-content: space-around;
+}
+
+.skill_html{
+    background-color: red;
+
+}
+
+.skill_js{
+    background-color: blue;
+}
+
+.skill_php{
+    background-color: green;
+}
+
+.myskills ul li{
+    width:120px;
+    height:120px;
+    border-radius:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.works_box{
+    max-width:600px;
+    margin:40px auto;
+}
+
+.works_img{
+    width:100px;
+    height:auto;
+}
+
+.works_h3{
+    margin-top:10px;
+}
+
+/* footer */
+
+footer{
+    height:50px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
